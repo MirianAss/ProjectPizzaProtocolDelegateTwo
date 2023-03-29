@@ -8,7 +8,7 @@
 import UIKit
 
 class ListPizzaViewController: UIViewController {
-
+    
     @IBOutlet weak var tableView: UITableView!
     
     var arrayPizza: Pizza?

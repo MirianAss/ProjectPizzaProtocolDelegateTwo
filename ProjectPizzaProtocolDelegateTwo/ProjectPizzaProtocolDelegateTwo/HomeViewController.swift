@@ -8,12 +8,11 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
+    
     @IBAction func btStart(_ sender: Any) {
         if let screen = self.storyboard?.instantiateViewController(withIdentifier: "navigation") {
             screen.modalPresentationStyle = .fullScreen
@@ -21,6 +20,5 @@ class HomeViewController: UIViewController {
             self.present(screen, animated: true)
         }
     }
-    
 }
 
