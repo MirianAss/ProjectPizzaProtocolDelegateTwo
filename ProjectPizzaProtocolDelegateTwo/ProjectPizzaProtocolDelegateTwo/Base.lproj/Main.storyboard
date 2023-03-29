@@ -24,6 +24,9 @@
                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="22"/>
                                     <color key="baseForegroundColor" systemColor="tertiarySystemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="btStart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ce3-uS-dXC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ZH-yC-NeY">
                                 <rect key="frame" x="76" y="297" width="86" height="32"/>

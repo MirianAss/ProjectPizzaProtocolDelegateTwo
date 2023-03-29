@@ -14,6 +14,13 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func btStart(_ sender: Any) {
+        if let screen = self.storyboard?.instantiateViewController(withIdentifier: "navigation") {
+            screen.modalPresentationStyle = .fullScreen
+            screen.modalTransitionStyle = .flipHorizontal
+            self.present(screen, animated: true)
+        }
+    }
+    
 }
 
