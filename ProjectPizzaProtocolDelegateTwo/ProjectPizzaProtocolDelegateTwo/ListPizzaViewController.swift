@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ListPizzaViewController: UIViewController, UITableViewDelegate {
+class ListPizzaViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -56,8 +56,11 @@ extension ListPizzaViewController:UITableViewDataSource {
     }
 }
 
-//extension ListPizzaViewController: UITableViewDelegate {
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        
-//    }
-//}
+extension ListPizzaViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let screen = self.storyboard?.instantiateViewController(withIdentifier: "ratingPizza") as? RatingPizzaViewController {
+            screen.ratingPizza = self.arrayPizza?[indexPath.row]
+            self.navigationController?.pushViewController(screen, animated: true)
+        }
+    }
+}
