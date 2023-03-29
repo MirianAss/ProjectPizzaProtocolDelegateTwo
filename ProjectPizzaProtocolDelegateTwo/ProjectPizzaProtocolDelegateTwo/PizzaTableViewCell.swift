@@ -8,9 +8,9 @@
 import UIKit
 import SDWebImage
 
-class PIzzaTableViewCell: UITableViewCell {
+class PizzaTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var lblNamePizza: UILabel!
+    @IBOutlet weak var lblPizzaCell: UILabel!
     @IBOutlet weak var imagePizzaCell: UIImageView!
     
     override func awakeFromNib() {
@@ -21,8 +21,8 @@ class PIzzaTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
     }
     
-    func setupPizza(pizza: PizzaElement?){
-        lblNamePizza.text = pizza?.name ?? ""
+    func setupPizza(pizza: PizzaElement?) {
+        lblPizzaCell.text = pizza?.name ?? ""
         let urlImage = URL(string: pizza?.imageURL ?? "")
         imagePizzaCell.sd_setImage(with: urlImage)
     }
