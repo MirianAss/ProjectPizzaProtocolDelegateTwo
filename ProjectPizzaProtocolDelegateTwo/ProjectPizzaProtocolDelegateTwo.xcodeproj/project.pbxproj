@@ -15,6 +15,7 @@
 		3A78F95029D480BD00C02C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F94F29D480BD00C02C43 /* Assets.xcassets */; };
 		3A78F95329D480BD00C02C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F95129D480BD00C02C43 /* LaunchScreen.storyboard */; };
 		3A78F95B29D4885900C02C43 /* ListPizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F95A29D4885900C02C43 /* ListPizzaViewController.swift */; };
+		3A78F95D29D4997900C02C43 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F95C29D4997900C02C43 /* Pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		3A78F95229D480BD00C02C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A78F95429D480BD00C02C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A78F95A29D4885900C02C43 /* ListPizzaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPizzaViewController.swift; sourceTree = "<group>"; };
+		3A78F95C29D4997900C02C43 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		93D0482B058E679A85F80E71 /* Pods-ProjectPizzaProtocolDelegateTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectPizzaProtocolDelegateTwo.debug.xcconfig"; path = "Target Support Files/Pods-ProjectPizzaProtocolDelegateTwo/Pods-ProjectPizzaProtocolDelegateTwo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				3A78F94629D480BC00C02C43 /* AppDelegate.swift */,
 				3A78F94829D480BC00C02C43 /* SceneDelegate.swift */,
 				3A78F94C29D480BC00C02C43 /* Main.storyboard */,
+				3A78F95C29D4997900C02C43 /* Pizza.swift */,
 				3A78F95A29D4885900C02C43 /* ListPizzaViewController.swift */,
 				3A78F94A29D480BC00C02C43 /* HomeViewController.swift */,
 				3A78F94F29D480BD00C02C43 /* Assets.xcassets */,
@@ -212,6 +215,7 @@
 				3A78F94B29D480BC00C02C43 /* HomeViewController.swift in Sources */,
 				3A78F95B29D4885900C02C43 /* ListPizzaViewController.swift in Sources */,
 				3A78F94729D480BC00C02C43 /* AppDelegate.swift in Sources */,
+				3A78F95D29D4997900C02C43 /* Pizza.swift in Sources */,
 				3A78F94929D480BC00C02C43 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
